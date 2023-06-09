@@ -3,9 +3,9 @@
 
 # 导入OpenAi
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "xxx"
 from langchain.llms import OpenAI
-llm = OpenAI(openai_api_key="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")
+llm = OpenAI(openai_api_key="xxx")
 
 from langchain.llms import OpenAI
 from langchain import PromptTemplate
