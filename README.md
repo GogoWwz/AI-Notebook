@@ -1,2 +1,10 @@
-# LangChain-Notebook
-LangChain学习小册
+# AI-Notebook
+AI学习笔记
+
+- openAI
+
+- LangChain
+
+- embedding
+
+- ...
