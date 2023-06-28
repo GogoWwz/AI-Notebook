@@ -26,6 +26,8 @@ history.add_ai_message("好的面试结束，请等待我们的打分")
 memoryMessage = ConversationSummaryMemory.from_messages(llm=OpenAI(temperature=0), chat_memory=history, return_messages=True)
 memory = memoryMessage.buffer
 
+print(memory)
+
 # 自定义的答案知识库
 answer = """
     CSS盒模型是指用于布局和渲染HTML元素的一种模型。
